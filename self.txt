@@ -1,0 +1,16 @@
+The concepts in this file are react routing and "Redirect", "useHistory" hook.
+Insted of "Redirect", "useHistory" hook those are replced with "navigate" and "useNavigate" are used and updated for that.
+coning to the URL parameters path parameter are used with "match.parasms.name" and at the route path "/Dashboard/:name" are used. now it will be updated to the "useParams"
+are imported from the "react-router-dom" and we have to create an object for that " const {name} =useParams();"
+
+
+Chat GPT version: 
+-----------------
+
+In this file, the concepts being discussed are React routing and the usage of the `Redirect` component along with the `useHistory` hook. Instead of using `Redirect` and `useHistory`, the code has been updated to use `navigate` and `useNavigate`. Additionally, instead of accessing URL parameters using `match.params.name` at the route path `"/Dashboard/:name"`, the code will be updated to utilize the `useParams` hook from `react-router-dom`.
+
+To make the necessary corrections in the code:
+1. Import the `useParams` hook from `react-router-dom`.
+2. Create an object for the URL parameters using destructuring: `const { name } = useParams();`
+
+By making these adjustments, the code will be updated to use the more current and recommended methods for handling routing and URL parameters in a React application.
